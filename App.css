@@ -1,0 +1,130 @@
+body {
+  background-color: #111;
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Main card */
+.Card {
+  background-color: white;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;   /* spreads header / red block / footer */
+  width: 275px;
+  height: 365px;
+  padding: 18px;
+  box-sizing: border-box;
+  border-radius: 28px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.Card{
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+.job-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.Card {
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 250px;
+  padding: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.jobdes h2 {
+  margin: 5px 0;
+}
+
+.apply {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* Header */
+.header {
+  height:50px;
+  width:100%;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: contain;
+  border: 1px solid #eee;
+}
+
+/* Save pill */
+.savebutton {
+  height:min-content;
+  width:min-content;
+  
+
+  gap: 4px;
+  border: 1px solid #ddd;
+  border-radius: 40%;
+  padding:2px;
+  font-size: 11px;
+  color: #0942c7;
+}
+.bookmark{
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+/* Red job block */
+.jobdes {
+  background-color: rgb(66, 110, 173);
+  color: #000;
+  padding: 2px 0;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+
+/* Footer */
+.apply {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #ccc;
+  padding-top: 14px;
+}
+
+
+.apply button {
+  border: 1px solid #000;
+  background: #0f19d3;
+  padding: 3px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
